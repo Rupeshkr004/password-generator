@@ -4,7 +4,7 @@
 
 # Password Generator
 
-#### Generate a completly random password by including different characters to the length of your choice.
+#### Generate a completely random password by including different characters to the length of your choice.
 
 #### Live demo: https://generate-pwd.vercel.app
 
