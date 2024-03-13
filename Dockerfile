@@ -1,8 +1,8 @@
 FROM node
 WORKDIR /app
 RUN apt-get update
-COPY password-generator.zip .
-RUN unzip password-generator.zip 
+COPY password-generator*.zip .
+RUN unzip password-generator*.zip 
 RUN rm -R node_modules/
 RUN npm install
 ENV KEY=value
